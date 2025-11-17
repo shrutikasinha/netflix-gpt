@@ -1,7 +1,14 @@
+import { Provider } from "react-redux";
+import Body from "./components/Body";
+import appStore from "./redux/appStore";
+
 function App() {
   return (
-    <div className='bg-red-50'>
-     hello
+    <div>
+     <Provider store={appStore}>
+     {/* <Header /> */}
+     <Body />
+     </Provider>
     </div>
   );
 }
