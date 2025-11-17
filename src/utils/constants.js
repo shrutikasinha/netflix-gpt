@@ -10,4 +10,4 @@ export const options = {
 
 export const BG_IMG = 'https://assets.nflxext.com/ffe/siteui/vlv3/e94073b0-a056-402f-9015-16cb1e7e45c2/web/AE-en-20251110-TRIFECTA-perspective_c78e6526-49d7-470e-8630-6a69b4d6e039_large.jpg'
 
-export const OPEN_AI_KEY = "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"
+export const OPEN_AI_KEY = ""
